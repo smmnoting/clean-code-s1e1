@@ -7,7 +7,7 @@
 
 .banner {
   width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   display: block;
   text-align: right;
 }
@@ -107,6 +107,10 @@ input,
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.form-list__item_no_border {
+  border: none;
 }
 
 .checkbox {
