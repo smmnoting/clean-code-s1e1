@@ -42,7 +42,8 @@
 .form-list__item {
   list-style: none;
 }
-input, .button{
+input, 
+.button{
   outline: none;
 }
 .button {
