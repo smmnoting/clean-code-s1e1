@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -10,10 +10,10 @@ body {
   display: block;
   text-align: right;
 }
-.banner img {
+.banner__img {
   width: 100%;
 }
-.banner .banner__link {
+.banner__link {
   font-family: fantasy, cursive;
 }
 
@@ -34,11 +34,11 @@ body {
 .forms-wrapper__add-item {
   display: flex;
 }
-ul {
+.form-list {
   margin:0;
   padding: 0px;
 }
-li, h3 {
+.form-list__item {
   list-style:none;
 }
 input, .button{
@@ -58,6 +58,7 @@ input, .button{
 }
 /* Heading */
 .heading {
+  display: block;
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -82,17 +83,8 @@ input, .button{
   color: #333;
 }
 
-/* New Task */
-label[for="new-task"] {
-  display: block;
-  margin: 0 0 20px;
-}
-input#new-task {
-  width: 318px;
-}
-
 /* Task list */
-li {
+.form-list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -101,22 +93,17 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
-  vertical-align: middle;
-}
 
 .checkbox {
   margin: 0 10px;
 }
-li > label {
+.form-row__content {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.text-input {
-  width: 226px
-}
+
 .delete-button__img {
   height: 2em;
   transform: rotateZ(45deg);
@@ -127,7 +114,7 @@ li > label {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.form-row__content_strikethrough {
   text-decoration: line-through
   color: #888;
 }
