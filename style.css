@@ -36,14 +36,14 @@
   display: flex;
 }
 .form-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .form-list__item {
-  list-style:none;
+  list-style: none;
 }
 input, .button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -122,15 +122,15 @@ input, .button{
 
 /* Edit Task */
 .form-row__content_hidden {
-  display:none
+  display: none
 }
 
 .form-row_editmode .form-row__content {
-  display:none;
+  display: none;
 }
 
 .form-row_editmode .form-row__content_hidden {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
