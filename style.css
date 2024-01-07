@@ -30,7 +30,7 @@
 .form-row__content{
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .forms-wrapper__add-item {
   display: flex;
@@ -116,13 +116,13 @@ input, .button{
 
 /* Completed */
 .form-row__content_strikethrough {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .form-row__content_hidden {
-  display: none
+  display: none;
 }
 
 .form-row_editmode .form-row__content {
@@ -131,6 +131,6 @@ input, .button{
 
 .form-row_editmode .form-row__content_hidden {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
